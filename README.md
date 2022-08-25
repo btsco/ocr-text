@@ -4,7 +4,7 @@ sudo apt-get install tesseract-ocr
 # install python
 sudo apt-get install pip
 # install open-cv 2
-pip install pillow pytesseract opencv-python
+pip install pillow pytesseract opencv-python flask
 # install lib require
 sudo apt-get update
 sudo apt-get install ffmpeg libsm6 libxext6  -y
