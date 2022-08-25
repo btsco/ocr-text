@@ -33,7 +33,7 @@ filename = "{}.png".format(os.getpid())
 cv2.imwrite(filename, gray)
 
 # Load image temp and apply Tesseract OCR
-text = pytesseract.image_to_string(Image.open(filename),lang='eng')
+text = pytesseract.image_to_string(Image.open(filename),lang='vie')
 
 # delete temp
 os.remove(filename)

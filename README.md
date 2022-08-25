@@ -1,4 +1,4 @@
-# setup
+# setup linux
 # install tessereact
 sudo apt-get install tesseract-ocr
 # install python
@@ -19,3 +19,8 @@ sudo cp <vie.traineddata> /usr/share/tesseract-ocr/4.00/tessdata/
 
 # command test
 - python3 main.py -i testing.png -p thresh
+
+
+# setup window
+- https://github.com/UB-Mannheim/tesseract/wiki
+- Choose additional languages
