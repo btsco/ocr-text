@@ -36,7 +36,7 @@ cv2.imwrite(filename, gray)
 text = pytesseract.image_to_string(Image.open(filename),lang='vie')
 
 # delete temp
-os.remove(filename)
+#os.remove(filename)
 
 # result
 print(text)
